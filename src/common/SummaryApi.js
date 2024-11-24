@@ -1,4 +1,4 @@
-export const baseUrl = "http://localhost:8080"
+export const baseUrl = "https://blinkit-backend-uvp2.onrender.com/"
 
 
 const SummaryApi = {

@@ -10,13 +10,13 @@ const Footer = () => {
         <p>© All Rights Reserved 2024</p>
 
         <div className='flex items-center gap-4  justify-center text-2xl'>
-            <a href='' className='hover:text-primary-100'>
+            <a href='https://www.facebook.com/' className='hover:text-primary-100'>
                 <FaFacebook />
             </a>
-            <a href='' className='hover:text-primary-100'>
+            <a href='https://www.instagram.com/' className='hover:text-primary-100'>
                 <FaInstagram/>
             </a>
-            <a href='' className='hover:text-primary-100'>
+            <a href='https://www.linkedin.com/' className='hover:text-primary-100'>
                 <FaLinkedin/>
             </a>
         </div>

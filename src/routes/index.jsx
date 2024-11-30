@@ -9,9 +9,9 @@ import OtpVerification from "../pages/OtpVerification";
 import ResetPassword from "../pages/ResetPassword";
 // import UserMenu from "../components/userMenu";
 import UserMenuMobile from "../pages/UserMenuMobile";
-import Dashboard from "../layouts/Dashboard"
+import Dashboard from "../layouts/Dashboard";
 import Profile from "../pages/Profile";
-import MyOrders from "../pages/MyOrders";
+import MyOrders from "../pages/MyOrder";
 import Address from "../pages/Address";
 
 

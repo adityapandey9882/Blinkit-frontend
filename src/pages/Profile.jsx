@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
-import { FaCircleUser } from "react-icons/fa6";
-import UserProfileAvatartEdit from '../components/UserProfileAvatartEdit';
+import { useDispatch, useSelector } from 'react-redux';
+import { FaCircleUser } from 'react-icons/fa6';
+import UserProfileAvatartEdit from '../components/UserProfileAvatarEdit';
 import Axios from '../utils/Axios';
 import SummaryApi from '../common/SummaryApi';
 import AxiosToastError from '../utils/AxiosToastError';

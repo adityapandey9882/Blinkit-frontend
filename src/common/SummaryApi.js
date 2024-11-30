@@ -1,4 +1,5 @@
-export const baseUrl = "https://blinkit-backend-uvp2.onrender.com"
+
+export const baseUrl = "http://localhost:8080"
 
 
 const SummaryApi = {
@@ -19,12 +20,28 @@ const SummaryApi = {
         method : 'put'
     },
     resetPassword : {
-        url : '/api/user/reset-password',
+        url : 'api/user/reset-password',
         method : 'put'
     },
     refreshToken : {
-        url : '/api/user/refresh-token',
+        url : "api/user/refresh-token",
         method : 'post'
+    },
+    userDetails : {
+        url : '/api/user/user-details',
+        method : 'get'
+    },
+    logout : {
+        url : '/api/user/logout',
+        method : 'get'
+    },
+    uplaodAvatar : {
+        url : '/api/user/upload-avatar',
+        method : 'put'
+    },
+    updateUserDetails : {
+        url : '/api/user/update-user',
+        method : 'put'
     }
 }
 

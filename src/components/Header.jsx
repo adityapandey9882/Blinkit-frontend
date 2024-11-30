@@ -8,7 +8,7 @@ import { BsCart4 } from "react-icons/bs";
 import { useSelector } from 'react-redux';
 import { GoTriangleDown, GoTriangleUp } from "react-icons/go";
 import { useState } from 'react';
-import UserMenu from './userMenu';
+import UserMenu from './UserMenu';
 
 
 const Header = () => {
